@@ -25,3 +25,9 @@ Al final de este nivel, habrás creado un pequeño conjunto de herramientas para
 ## Excecution
 ### Ejercicio 1
 #### Crea una clase que liste alfabéticamente el contenido de un directorio recibido por parámetro.
+- He creado una clase llama DirectoryLister con un metodo alphabeticalDirectoryLister()
+- He usado un montòn de llamadas nuevas:
+- El tipo de objeto File, que puede leer archivos o directories
+- .exists() .isDirectory() .getName() para llamar datos y/o verificar cosas
+- La clase Main para llamar el metodo, pasando "." sale la estructura de la carpeta del proyecto 
+- Tambièn he especificado si los elementos son FILE o DIR

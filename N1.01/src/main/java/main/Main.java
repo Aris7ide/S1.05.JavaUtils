@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 public class Main {
     static void main(String[] args) {
 
-        try (PrintWriter writer = new PrintWriter(new FileWriter("directory_structure.txt"))) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter("N1.01/directory_structure.txt"))) {
             DirectoryLister.alphabeticalDirectoryLister(".", 0,writer);
             System.out.println("El file ha sido guardado correctamente");
         } catch (IOException e) {

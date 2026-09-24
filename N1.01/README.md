@@ -36,3 +36,7 @@ Al final de este nivel, habrás creado un pequeño conjunto de herramientas para
 - Para que por cada carpeta haga un arbol he implementado, cada vez que se encuentre una carpeta, una llamada al mismo metodo usando .getAbsolutePath()
 - tambièn he dato al metodo un secondo valor Integer nivel para poder dar un valor a las subcarpetas y poder craer espacios para visualmente darle un sentido al arbol, he usado el ("\t").repeat(nivel)
 - tambièn he modificado el if para verificar que la carpeta estè vacia para que no salga como error cada vez que encuentre una directory vacia.
+### Ejercicio 3
+#### Modifica el ejercicio anterior. Ahora, en lugar de mostrar el resultado por la pantalla, guarda el resultado en un archivo TXT.
+- He usado un try-with-resources para crear un FileWriter en un PrintWriter
+- he pasado el PrintWriter writer al metodo y ahi en vez de usar un System.out.println() he usado un writer.println().

@@ -31,3 +31,8 @@ Al final de este nivel, habrás creado un pequeño conjunto de herramientas para
 - .exists() .isDirectory() .getName() para llamar datos y/o verificar cosas
 - La clase Main para llamar el metodo, pasando "." sale la estructura de la carpeta del proyecto 
 - Tambièn he especificado si los elementos son FILE o DIR
+### Ejercicio 2
+#### Añade a la clase del ejercicio anterior, la funcionalidad de listar un árbol de directorios con el contenido de todos sus niveles (recursivamente) de forma que se impriman en pantalla en orden alfabético dentro de cada nivel, indicando además si es un directorio (D) o un archivo (F), y su última fecha de modificación
+- Para que por cada carpeta haga un arbol he implementado, cada vez que se encuentre una carpeta, una llamada al mismo metodo usando .getAbsolutePath()
+- tambièn he dato al metodo un secondo valor Integer nivel para poder dar un valor a las subcarpetas y poder craer espacios para visualmente darle un sentido al arbol, he usado el ("\t").repeat(nivel)
+- tambièn he modificado el if para verificar que la carpeta estè vacia para que no salga como error cada vez que encuentre una directory vacia.

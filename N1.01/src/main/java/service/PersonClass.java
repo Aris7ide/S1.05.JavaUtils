@@ -15,7 +15,7 @@ public class PersonClass implements Serializable {
 
     @Override
     public String toString() {
-        return name + surname + ". Age: " + age;
+        return name + " " + surname + ". Age: " + age;
     }
 
 

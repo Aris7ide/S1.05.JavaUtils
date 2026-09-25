@@ -17,6 +17,7 @@ public class Serial {
 
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(path))) {
             PersonClass p = (PersonClass) ois.readObject();
+            return p;
         } catch (IOException e) {
             System.err.println(e.getMessage());
         } catch (ClassNotFoundException e) {

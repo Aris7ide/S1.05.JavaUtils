@@ -49,3 +49,4 @@ Al final de este nivel, habrás creado un pequeño conjunto de herramientas para
 - He credo una nueva clase Serial y un PersonClass para poder crear un objeto
 - En Serial dos metodos con ObjectOutputStrem y FileOutputStream para guardar el .ser y otro con InputObjectStream y FileInputStream para leerlo.
 - al leer el .ser me da null, el objecto no ha sido guardado o leido.
+- me faltaba un return en metodo de leida con el objeto. Ahora lo lee bien.

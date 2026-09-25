@@ -276,6 +276,7 @@
 		[DIR] generated-sources Last edit: 23/09/2026
 			[DIR] annotations Last edit: 23/09/2026
 [DIR] N2.01 Last edit: 25/09/2026
+	[FILE] directory_structure.txt Last edit: 25/09/2026
 	[FILE] pom.xml Last edit: 25/09/2026
 	[DIR] src Last edit: 25/09/2026
 		[DIR] main Last edit: 25/09/2026

@@ -1,6 +1,7 @@
 package main;
 
 import service.DirectoryLister;
+import service.NewFileReader;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,5 +16,7 @@ public class Main {
         } catch (IOException e) {
             System.err.println(e.getMessage());
         }
+
+        NewFileReader.readFile("N1.01/src/testRead.txt");
     }
 }

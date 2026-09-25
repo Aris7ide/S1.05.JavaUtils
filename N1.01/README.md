@@ -40,3 +40,9 @@ Al final de este nivel, habrás creado un pequeño conjunto de herramientas para
 #### Modifica el ejercicio anterior. Ahora, en lugar de mostrar el resultado por la pantalla, guarda el resultado en un archivo TXT.
 - He usado un try-with-resources para crear un FileWriter en un PrintWriter
 - he pasado el PrintWriter writer al metodo y ahi en vez de usar un System.out.println() he usado un writer.println().
+### Ejercicio 4
+#### Añade la funcionalidad de leer cualquier archivo TXT y muestra su contenido por consola.
+- He creado una nueva clase con un metodo readFile() que llama un BufferedReader y un FileReader pasando el path del file que quiere leer. 
+- Desde el main he llamado el metodo y pasado el file path, el texto del .txt sale en consola.
+### Ejercicio 5
+#### 

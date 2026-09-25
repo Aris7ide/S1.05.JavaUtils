@@ -45,4 +45,7 @@ Al final de este nivel, habrás creado un pequeño conjunto de herramientas para
 - He creado una nueva clase con un metodo readFile() que llama un BufferedReader y un FileReader pasando el path del file que quiere leer. 
 - Desde el main he llamado el metodo y pasado el file path, el texto del .txt sale en consola.
 ### Ejercicio 5
-#### 
+#### Ahora el programa debe serializar un Objeto Java a un archivo .ser y después debe desserializarlo.
+- He credo una nueva clase Serial y un PersonClass para poder crear un objeto
+- En Serial dos metodos con ObjectOutputStrem y FileOutputStream para guardar el .ser y otro con InputObjectStream y FileInputStream para leerlo.
+- al leer el .ser me da null, el objecto no ha sido guardado o leido.

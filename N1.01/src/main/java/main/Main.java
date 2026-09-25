@@ -1,7 +1,8 @@
 package main;
 
 import service.DirectoryLister;
-import service.NewFileReader;
+import service.PersonClass;
+import service.Serial;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -17,6 +18,13 @@ public class Main {
             System.err.println(e.getMessage());
         }
 
-        NewFileReader.readFile("N1.01/src/testRead.txt");
+        //NewFileReader.readFile("N1.01/src/testRead.txt");
+
+        Serial.newSerial("N1.01/src/files/test.ser", new PersonClass("Maria","Rossi",29));
+        PersonClass objectDeserialized = (PersonClass) Serial.readSerial("N1.01/src/files/test.ser");
+
+        System.out.println(objectDeserialized);
+
+
     }
 }

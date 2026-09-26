@@ -1,5 +1,6 @@
 package main;
 
+import service.ConfigLoader;
 import service.DirectoryLister;
 
 import java.io.FileWriter;
@@ -9,7 +10,9 @@ import java.io.PrintWriter;
 public class Main {
     static void main(String[] args) {
 
-        try (PrintWriter writer = new PrintWriter(new FileWriter("N2.01/directory_structure.txt"))) {
+        final String filePath = ConfigLoader.getProperty("app.data.file", "");
+
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filePath))) {
             DirectoryLister.alphabeticalDirectoryLister(".", 0,writer);
             System.out.println("El file ha sido guardado correctamente");
         } catch (IOException e) {

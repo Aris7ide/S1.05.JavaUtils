@@ -28,4 +28,6 @@ Nombre y directorio del archivo TXT resultante.
 - Y en ese mismo bloque estatico que lea los parameters en congig.properties y los guarde en el objeto config.
 - #### El builder llama los metodos necesarios para leer el file config.properties y los guarda en config
 - he creado los dos metodos getProperty() y setProperty() para poder leer y escribir el config.properties
-- 
+- He llamado el metodo ConfigLoader.getProperty("app.data.file", "N2.01/directory_structure.txt") 
+- me ha dado un error y parece que me faltaban unas dependencies en el .pom
+- he añadido las dependencies y ahora funciona

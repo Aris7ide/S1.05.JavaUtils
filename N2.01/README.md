@@ -11,7 +11,7 @@ Directorio a leer.
 Nombre y directorio del archivo TXT resultante.
 
 ## ✨ Funcionalitats
-- Apache Commons
+- Parametrizacion y config.properties
 
 ## 🛠 Tecnologies
 - **Llenguatge**: Java 25

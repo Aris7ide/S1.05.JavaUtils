@@ -1,5 +1,5 @@
-[DIR] .git Last edit: 26/09/2026
-	[FILE] COMMIT_EDITMSG Last edit: 26/09/2026
+[DIR] .git Last edit: 29/09/2026
+	[FILE] COMMIT_EDITMSG Last edit: 29/09/2026
 	[FILE] config Last edit: 23/09/2026
 	[FILE] description Last edit: 23/09/2026
 	[FILE] HEAD Last edit: 23/09/2026
@@ -18,18 +18,18 @@
 		[FILE] push-to-checkout.sample Last edit: 23/09/2026
 		[FILE] sendemail-validate.sample Last edit: 23/09/2026
 		[FILE] update.sample Last edit: 23/09/2026
-	[FILE] index Last edit: 26/09/2026
+	[FILE] index Last edit: 29/09/2026
 	[DIR] info Last edit: 23/09/2026
 		[FILE] exclude Last edit: 23/09/2026
 	[DIR] logs Last edit: 23/09/2026
-		[FILE] HEAD Last edit: 26/09/2026
+		[FILE] HEAD Last edit: 29/09/2026
 		[DIR] refs Last edit: 23/09/2026
 			[DIR] heads Last edit: 23/09/2026
-				[FILE] main Last edit: 26/09/2026
+				[FILE] main Last edit: 29/09/2026
 			[DIR] remotes Last edit: 23/09/2026
 				[DIR] origin Last edit: 23/09/2026
-					[FILE] main Last edit: 26/09/2026
-	[DIR] objects Last edit: 26/09/2026
+					[FILE] main Last edit: 29/09/2026
+	[DIR] objects Last edit: 29/09/2026
 		[DIR] 00 Last edit: 23/09/2026
 			[FILE] fe81646ee6d0cbe49bafa5ca4275dbf7e6b74b Last edit: 23/09/2026
 		[DIR] 01 Last edit: 25/09/2026
@@ -50,7 +50,8 @@
 		[DIR] 0b Last edit: 25/09/2026
 			[FILE] c361a3d2cb29747b0dbed555df442fd8a70e3c Last edit: 25/09/2026
 			[FILE] f663f386d473c90194182c67b32be827b89626 Last edit: 24/09/2026
-		[DIR] 0c Last edit: 26/09/2026
+		[DIR] 0c Last edit: 29/09/2026
+			[FILE] 96d5f27e35b1feee3e8cd017b7481e6f499fb1 Last edit: 29/09/2026
 			[FILE] b263ebb2bfb7203ffa465a9d90fe7cc0c3ae23 Last edit: 26/09/2026
 		[DIR] 0d Last edit: 24/09/2026
 			[FILE] 8540a25797dea03d617b3baea61cf17c1013e1 Last edit: 24/09/2026
@@ -60,21 +61,32 @@
 			[FILE] fea9618812f234221142ccec1eb57091af2c0e Last edit: 25/09/2026
 		[DIR] 0f Last edit: 26/09/2026
 			[FILE] 7aaaab82a7542eb1ef4d68893a9399fde1f6ef Last edit: 26/09/2026
-		[DIR] 10 Last edit: 24/09/2026
+		[DIR] 10 Last edit: 26/09/2026
 			[FILE] 85a9ea867565ff1275a9c1979cdb4472e5dbd6 Last edit: 24/09/2026
+			[FILE] 9bee43ccbd4403da1d31a5120a9f0f617ecedd Last edit: 26/09/2026
 		[DIR] 12 Last edit: 24/09/2026
 			[FILE] cc3d21d510de08c0b5884995ddaa419336a290 Last edit: 24/09/2026
+		[DIR] 14 Last edit: 29/09/2026
+			[FILE] 2a4cf6cb0ae6c379fd6758fb4defdf3eea4476 Last edit: 29/09/2026
 		[DIR] 15 Last edit: 23/09/2026
 			[FILE] cd68946ddea111ac32f082a3bdbb22186ee85a Last edit: 23/09/2026
 		[DIR] 17 Last edit: 25/09/2026
 			[FILE] 50a58c8630e4e889fd0ac42c56a70a2f0a78b5 Last edit: 25/09/2026
+		[DIR] 1a Last edit: 29/09/2026
+			[FILE] b794a297927e8d767edf8b6df26dbcda6d7ece Last edit: 29/09/2026
 		[DIR] 1b Last edit: 24/09/2026
 			[FILE] 2daec497511d8472fdfc148f45fccfd629ebf0 Last edit: 24/09/2026
 		[DIR] 1d Last edit: 25/09/2026
 			[FILE] 5ac20b144b1771fb99dcc950852f6171efd8c9 Last edit: 24/09/2026
 			[FILE] 5e7ea8bce5b68a47910201484f0a087b1a6aa2 Last edit: 25/09/2026
-		[DIR] 20 Last edit: 26/09/2026
+		[DIR] 20 Last edit: 29/09/2026
 			[FILE] 2c40d40990ff31fcf204172051c7dd4559f02a Last edit: 26/09/2026
+			[FILE] 4d72aa77368fca71178e9fed5f4dd83274b736 Last edit: 29/09/2026
+		[DIR] 22 Last edit: 26/09/2026
+			[FILE] 5cea6ba658de68ebace604441d78de08de0e09 Last edit: 26/09/2026
+			[FILE] b79e9c115a7f305938bb1882364676dd3bfa0a Last edit: 26/09/2026
+		[DIR] 25 Last edit: 26/09/2026
+			[FILE] f2c2cf30fc60db459820bcb5c7eb7bba36fd5b Last edit: 26/09/2026
 		[DIR] 26 Last edit: 24/09/2026
 			[FILE] 35a29faba36327afb9a40797e111e19ca135d5 Last edit: 24/09/2026
 		[DIR] 27 Last edit: 25/09/2026
@@ -83,12 +95,18 @@
 			[FILE] 197ec2cb2fd64c5d28d883608371c72db6f17a Last edit: 24/09/2026
 		[DIR] 29 Last edit: 25/09/2026
 			[FILE] 5da6bb3137bb4792f51649d4cd841fb11cb89f Last edit: 25/09/2026
-		[DIR] 2c Last edit: 24/09/2026
+		[DIR] 2b Last edit: 29/09/2026
+			[FILE] 59d993a51a9bee3adad2b98dc1d501e80bc771 Last edit: 29/09/2026
+		[DIR] 2c Last edit: 26/09/2026
+			[FILE] 7e88b85bedf40963ad55f09e8c96505baebc31 Last edit: 26/09/2026
 			[FILE] 8b3dcf584b42d967d0d7de96dbbcad2a8b2288 Last edit: 24/09/2026
+		[DIR] 2e Last edit: 29/09/2026
+			[FILE] 39b818a7aa33d07a8bc8a3ae788726543b9620 Last edit: 29/09/2026
 		[DIR] 2f Last edit: 25/09/2026
 			[FILE] 81e3262daecdc0f57c0eb0133b71335ca7eeed Last edit: 25/09/2026
-		[DIR] 30 Last edit: 25/09/2026
+		[DIR] 30 Last edit: 26/09/2026
 			[FILE] 2292a996ec8b9776bd1d5b35b78e51a9d10c28 Last edit: 25/09/2026
+			[FILE] 462ab1ddd07afd8a82091ca4c7a5510cacdf81 Last edit: 26/09/2026
 		[DIR] 31 Last edit: 23/09/2026
 			[FILE] 910cbfaa324d9d75715b46362902408283a563 Last edit: 25/09/2026
 		[DIR] 32 Last edit: 26/09/2026
@@ -103,14 +121,17 @@
 			[FILE] 8079b8d55f3fb867bf92ed4d4c7a14f52747b7 Last edit: 24/09/2026
 		[DIR] 3b Last edit: 24/09/2026
 			[FILE] 78fb0df5dccb26c9cf79440ca4d1663f4bf70d Last edit: 24/09/2026
-		[DIR] 3e Last edit: 23/09/2026
+		[DIR] 3e Last edit: 26/09/2026
 			[FILE] 2e94da5bb1b19c55f032cf94b90a07d89088dd Last edit: 23/09/2026
+			[FILE] 743ca4427b6cba2c5e6d5536010accb8863987 Last edit: 26/09/2026
 		[DIR] 3f Last edit: 26/09/2026
 			[FILE] 3d1ac026d904dc2fb6181fcc2a493562c41a71 Last edit: 26/09/2026
-		[DIR] 40 Last edit: 25/09/2026
+		[DIR] 40 Last edit: 29/09/2026
+			[FILE] 6977ccf3fac1dac2ad4a90b87f3994f1389723 Last edit: 29/09/2026
 			[FILE] e33c3151b7ace36481d18aaab188b5fa7f0bf0 Last edit: 25/09/2026
-		[DIR] 41 Last edit: 23/09/2026
+		[DIR] 41 Last edit: 26/09/2026
 			[FILE] a92ad3316762b86db531590cc2839b8bb1e2c3 Last edit: 23/09/2026
+			[FILE] e306ade75d604f11f6b4bb57839b33aa31a814 Last edit: 26/09/2026
 		[DIR] 42 Last edit: 25/09/2026
 			[FILE] 4c43128cfadf73937de4d61352c343b4df0e63 Last edit: 25/09/2026
 			[FILE] c53732b818faa1301385cd1344586c533d0be1 Last edit: 24/09/2026
@@ -118,33 +139,58 @@
 			[FILE] 499e7c20e1a0a960748a0bd6c9d17a9166d086 Last edit: 25/09/2026
 		[DIR] 44 Last edit: 23/09/2026
 			[FILE] 5b3879f1d1ba41bc6782e2c293cc8e2193c83c Last edit: 23/09/2026
+		[DIR] 45 Last edit: 26/09/2026
+			[FILE] f138ded1dd360463227f025da1600db3aa0a82 Last edit: 26/09/2026
 		[DIR] 46 Last edit: 24/09/2026
 			[FILE] 5c5aa850819f805b0682b170bb53618039f7b4 Last edit: 24/09/2026
 		[DIR] 47 Last edit: 25/09/2026
-			[FILE] 1b9170c9ff5ea50eedbe715ebdca6ded41b09d Last edit: 25/09/2026
+			[FILE] 1b9170c9ff5ea50eedbe715ebdca6ded41b09d Last edit: 29/09/2026
 		[DIR] 48 Last edit: 25/09/2026
 			[FILE] 0bdf524dd80e25ac77d9cdffdb815b807bdd51 Last edit: 23/09/2026
 			[FILE] c6c7b44f91637d0104d5379e5cd1e5f55261bd Last edit: 25/09/2026
 		[DIR] 4b Last edit: 24/09/2026
 			[FILE] a3b95a679f7c07185eea6b3e6e4440a0db898c Last edit: 23/09/2026
 			[FILE] d11b9ce0b1a25c00620f775423701530badba3 Last edit: 24/09/2026
-		[DIR] 4e Last edit: 23/09/2026
+		[DIR] 4d Last edit: 26/09/2026
+			[FILE] 94c5943d539f04c9645666ca5d12b78ca35b20 Last edit: 26/09/2026
+		[DIR] 4e Last edit: 26/09/2026
 			[FILE] 489a3ef55b46349645ae5402b7ab75a0d7b066 Last edit: 23/09/2026
+			[FILE] c2cb042287a5492a789b4e82c6d58ff5a2c637 Last edit: 26/09/2026
+		[DIR] 4f Last edit: 26/09/2026
+			[FILE] 9f9069b88c6f4a40dc35f6df3682a08d615d92 Last edit: 26/09/2026
+		[DIR] 52 Last edit: 29/09/2026
+			[FILE] df1c81dc9c6a189b9a241eb7c7596b10af8017 Last edit: 29/09/2026
 		[DIR] 53 Last edit: 25/09/2026
 			[FILE] 59414864c30124a2d51966823e78200de88766 Last edit: 25/09/2026
 			[FILE] 60637c95d98a7cb3cf30073537a0a035648355 Last edit: 23/09/2026
 		[DIR] 57 Last edit: 25/09/2026
 			[FILE] f8b01a022460a58a8c320aa302432699f9a6b0 Last edit: 25/09/2026
+		[DIR] 58 Last edit: 26/09/2026
+			[FILE] 113aa9fd7e31c16e5fa167708fd00da119b19b Last edit: 26/09/2026
 		[DIR] 5e Last edit: 25/09/2026
 			[FILE] 29b63fb5acbf6d5a8c2d22be6f136a3aba7870 Last edit: 25/09/2026
+		[DIR] 5f Last edit: 26/09/2026
+			[FILE] 410b12daa60ab3730a3af6bdef0a760df87def Last edit: 26/09/2026
+			[FILE] 54e57562892aae43cabc0219d12082357bb946 Last edit: 26/09/2026
 		[DIR] 60 Last edit: 24/09/2026
 			[FILE] 57020a6bbf2f4931e784ad03490280b37563c7 Last edit: 24/09/2026
+		[DIR] 64 Last edit: 29/09/2026
+			[FILE] 2e9b7ce625644e816f18824c1f6400760e579d Last edit: 29/09/2026
 		[DIR] 67 Last edit: 24/09/2026
 			[FILE] 98a65f2a68125b465534407397cadb8233ed27 Last edit: 25/09/2026
 			[FILE] f201ebb1a510fb51c450fa60c1f615fa18a12a Last edit: 24/09/2026
+		[DIR] 73 Last edit: 26/09/2026
+			[FILE] 2b2d5e796489c22696bd52c661212830d19a38 Last edit: 26/09/2026
 		[DIR] 74 Last edit: 24/09/2026
 			[FILE] 947ec5c3f2fd6ec97ee6028a70bf173746cbf0 Last edit: 24/09/2026
-		[DIR] 7d Last edit: 25/09/2026
+		[DIR] 75 Last edit: 26/09/2026
+			[FILE] fc54e839e8ac652b3727cb0006fe8864857427 Last edit: 26/09/2026
+		[DIR] 77 Last edit: 29/09/2026
+			[FILE] c3aa61c9cfe4c9a10e78bee14ecd4d9b8d276f Last edit: 29/09/2026
+		[DIR] 78 Last edit: 29/09/2026
+			[FILE] 62bfd6fc30b7fe6100de990a0e78ce3a89db9c Last edit: 29/09/2026
+		[DIR] 7d Last edit: 26/09/2026
+			[FILE] 10102927c5bd74dec3ca54f4c8561763c5b502 Last edit: 26/09/2026
 			[FILE] 976eda84c4884d1437af0359b764c7669db7bc Last edit: 25/09/2026
 		[DIR] 82 Last edit: 24/09/2026
 			[FILE] 2385c95c3c5ccbddcf587f3cae6ddc1985cc83 Last edit: 23/09/2026
@@ -152,26 +198,34 @@
 			[FILE] dfc00e68a1777789e3753d348cbbfdf5895f18 Last edit: 25/09/2026
 		[DIR] 83 Last edit: 23/09/2026
 			[FILE] 49ac8cb6fb81f640c7691b582034073186f8fa Last edit: 23/09/2026
-		[DIR] 86 Last edit: 25/09/2026
+		[DIR] 86 Last edit: 26/09/2026
 			[FILE] 7d0930c509d84258a8f9daa555b5de84f080a4 Last edit: 25/09/2026
+			[FILE] 883301be24b67a7648846a715c7301fd466f66 Last edit: 26/09/2026
+		[DIR] 87 Last edit: 26/09/2026
+			[FILE] 77d3c06b528b9e7af1f6b915c9bc3de828babd Last edit: 26/09/2026
 		[DIR] 89 Last edit: 24/09/2026
 			[FILE] e74a3bdce3798e8a37559661d3a90355770ddd Last edit: 24/09/2026
 		[DIR] 8c Last edit: 23/09/2026
 			[FILE] 1815eb93348142d8a3edfade4af0f23d74fca9 Last edit: 23/09/2026
-		[DIR] 8d Last edit: 25/09/2026
+		[DIR] 8d Last edit: 29/09/2026
 			[FILE] 6f1a10bbff8f7644e6582b780d2948bebcb293 Last edit: 25/09/2026
+			[FILE] c9f819b4d974f77f62ac020450309fef25730a Last edit: 29/09/2026
 		[DIR] 8f Last edit: 24/09/2026
 			[FILE] 1e6feb794666916ed23172d6a8f687737de95d Last edit: 24/09/2026
 		[DIR] 90 Last edit: 25/09/2026
 			[FILE] bff681eaaefc194079ecab3950a8a272a2eba8 Last edit: 25/09/2026
 		[DIR] 92 Last edit: 23/09/2026
 			[FILE] d938554285fa3799a221114379a7512a94156b Last edit: 23/09/2026
+		[DIR] 93 Last edit: 29/09/2026
+			[FILE] 8eb51eb46eab3869fc8934bb6f30ea6a365c71 Last edit: 29/09/2026
 		[DIR] 94 Last edit: 26/09/2026
 			[FILE] 4bd4409d26efa6d23f46323d6c0db5f99ffda4 Last edit: 26/09/2026
 			[FILE] a25f7f4cb416c083d265558da75d457237d671 Last edit: 23/09/2026
-		[DIR] 96 Last edit: 25/09/2026
+		[DIR] 96 Last edit: 26/09/2026
+			[FILE] 34d569de1ec449fb2fd633cfec10a2cfc88ed2 Last edit: 26/09/2026
 			[FILE] cbc5fa79cfffd4d3abde5bacb41bb9ec41faad Last edit: 25/09/2026
-		[DIR] 9a Last edit: 25/09/2026
+		[DIR] 9a Last edit: 29/09/2026
+			[FILE] 56b844098845615ee23b67e7fada43725973a3 Last edit: 29/09/2026
 			[FILE] d32fb7f39ccb94cb9c9018fec0f2a97484dd37 Last edit: 25/09/2026
 		[DIR] 9f Last edit: 23/09/2026
 			[FILE] 6684207fd5852a3ff8dcad91cdc15bf882ba49 Last edit: 23/09/2026
@@ -179,17 +233,24 @@
 			[FILE] 638e24e229282b55ec7b84144fc98831cdadfd Last edit: 24/09/2026
 		[DIR] a2 Last edit: 25/09/2026
 			[FILE] a059105e90fe590232879f7d81d980007f39d6 Last edit: 25/09/2026
+		[DIR] a6 Last edit: 29/09/2026
+			[FILE] d93aac71ba3c6ba7078b21da8b852b0bd06705 Last edit: 29/09/2026
+		[DIR] a7 Last edit: 26/09/2026
+			[FILE] 8ae6b6cb66bd4dcacd6a579873390be79d56f0 Last edit: 26/09/2026
 		[DIR] a8 Last edit: 24/09/2026
 			[FILE] d648040cd70feedfb99fcdf4a22f924728c0df Last edit: 24/09/2026
+		[DIR] a9 Last edit: 29/09/2026
+			[FILE] 4e8fbeab1f5800606608e6372bdc24d469fb36 Last edit: 29/09/2026
 		[DIR] aa Last edit: 25/09/2026
 			[FILE] 00ffab7828f4818589659c804ec2cfd99baed3 Last edit: 23/09/2026
-			[FILE] 24c3e3ee19e3afff3a03cde9ec36287fd45e48 Last edit: 25/09/2026
+			[FILE] 24c3e3ee19e3afff3a03cde9ec36287fd45e48 Last edit: 29/09/2026
 		[DIR] ab Last edit: 25/09/2026
 			[FILE] 1f4164edbbb088e58dd5d21bbc1f42816bc1ff Last edit: 23/09/2026
 			[FILE] aa48e747e0ffd021c7c243bd95d1b7c500d215 Last edit: 25/09/2026
 		[DIR] ac Last edit: 25/09/2026
 			[FILE] 27964b4e398ccc83be4adc29dfe94d105e0edd Last edit: 25/09/2026
-		[DIR] ad Last edit: 24/09/2026
+		[DIR] ad Last edit: 29/09/2026
+			[FILE] 5f8b3847f706759ef9ed8c4405d07aaedc25aa Last edit: 29/09/2026
 			[FILE] 707986ef1be6a648935997876e5bfecace63aa Last edit: 24/09/2026
 		[DIR] b1 Last edit: 23/09/2026
 			[FILE] 0c629393621abde203f3109e20cb038f816cb9 Last edit: 23/09/2026
@@ -218,10 +279,15 @@
 			[FILE] 8dc20491d2104f94d436002718e24876ba2376 Last edit: 25/09/2026
 		[DIR] c8 Last edit: 25/09/2026
 			[FILE] a0c79140e01b6c206cf5c05c37d13f6c4fe962 Last edit: 25/09/2026
-		[DIR] ca Last edit: 25/09/2026
+		[DIR] ca Last edit: 29/09/2026
+			[FILE] 8309978fe05223660ed242824b0e70ddb5e2d8 Last edit: 29/09/2026
 			[FILE] c166aebdc61e4acbf2dfd81e7796a01191f029 Last edit: 25/09/2026
 		[DIR] cb Last edit: 24/09/2026
 			[FILE] 5dfb8fe5688ab7ee9f8f9fc632418cbbb6789d Last edit: 24/09/2026
+		[DIR] cd Last edit: 29/09/2026
+			[FILE] 2ae1177dd58b64c2e203ac045f551141164426 Last edit: 29/09/2026
+		[DIR] ce Last edit: 29/09/2026
+			[FILE] 65e045d3ecdf87a39fde9aff814bfc634cc18f Last edit: 29/09/2026
 		[DIR] cf Last edit: 25/09/2026
 			[FILE] 6f76500d7e055114c652393cf0d5f7bdba6fdd Last edit: 25/09/2026
 			[FILE] 8643618a0762f557217efea4d097777eeb2b14 Last edit: 25/09/2026
@@ -243,15 +309,19 @@
 			[FILE] 83b20f4bbcdee601672e7ac587b4950d382d02 Last edit: 25/09/2026
 		[DIR] e1 Last edit: 26/09/2026
 			[FILE] 88bff16051e28c0aee3193c3a7fba72924a604 Last edit: 26/09/2026
-		[DIR] e2 Last edit: 25/09/2026
+		[DIR] e2 Last edit: 26/09/2026
 			[FILE] 2b5406a51ad4c4c1acb8ec4bfd172c3fda57f4 Last edit: 25/09/2026
-		[DIR] e5 Last edit: 23/09/2026
+			[FILE] 8725c9428ceefed84500c101f45d89f272bdf1 Last edit: 26/09/2026
+		[DIR] e5 Last edit: 29/09/2026
+			[FILE] 86643393075c29b985a0377472fe4eca6b994b Last edit: 29/09/2026
 			[FILE] a1e0ced03c6dfed663e922f66a0b7d0249f20a Last edit: 23/09/2026
-		[DIR] e6 Last edit: 24/09/2026
+		[DIR] e6 Last edit: 26/09/2026
+			[FILE] 1392c7b777ca8e90e3c831f08f22fae47cba79 Last edit: 26/09/2026
 			[FILE] 9de29bb2d1d6434b8b29ae775ad8c2e48c5391 Last edit: 26/09/2026
 			[FILE] f278fec19112d26f8418f2445413a67bbe2179 Last edit: 24/09/2026
-		[DIR] e8 Last edit: 25/09/2026
+		[DIR] e8 Last edit: 26/09/2026
 			[FILE] 9d46a8d3a9d13b96773bc6429d9bba10a7f0ef Last edit: 25/09/2026
+			[FILE] a55bc4496fef510085f39f04fdc36ec4575928 Last edit: 26/09/2026
 		[DIR] ea Last edit: 23/09/2026
 			[FILE] 315d56bfd9b11ea65e199c8939a72c6c482e82 Last edit: 23/09/2026
 		[DIR] ec Last edit: 26/09/2026
@@ -261,95 +331,138 @@
 			[FILE] adbac9af89d13711ba934b20fcd35cbeb186aa Last edit: 25/09/2026
 		[DIR] ef Last edit: 26/09/2026
 			[FILE] 923354072159aab3a6a41849cb0d23d59db85b Last edit: 26/09/2026
-		[DIR] f5 Last edit: 25/09/2026
+		[DIR] f1 Last edit: 29/09/2026
+			[FILE] ad8d48aa34d85f18ed2405cca3c602c241ea9a Last edit: 29/09/2026
+		[DIR] f5 Last edit: 29/09/2026
 			[FILE] 3572ccc091ab85a7a2b6f421215e98447fd5ee Last edit: 25/09/2026
+			[FILE] 729a3a3df756e2554daa62d4bb2c1969a9558d Last edit: 29/09/2026
 			[FILE] ebd6f6dcd7fa6b8ad2035941d1023f50770766 Last edit: 24/09/2026
+		[DIR] f7 Last edit: 26/09/2026
+			[FILE] 29faf56d7499f9fa9c51b75d2ce2e8cc971bb1 Last edit: 26/09/2026
+		[DIR] fa Last edit: 26/09/2026
+			[FILE] 2e73b16b6a84fbecd7a24a43854993dadeb552 Last edit: 26/09/2026
 		[DIR] fb Last edit: 26/09/2026
 			[FILE] 7756fd18cb8630fc70971c3853a86a12c044a6 Last edit: 23/09/2026
 			[FILE] 82a222e99d7eff531e87de71946ec0d022c9ff Last edit: 25/09/2026
 			[FILE] aad8af1a8b76a5a0ece005fcc4b7db15b013f1 Last edit: 23/09/2026
 			[FILE] c792c602d950bd20c64f298128cf8fb731e79d Last edit: 26/09/2026
+		[DIR] fc Last edit: 26/09/2026
+			[FILE] 79f717b0e24b9d9d2f92f30dcb959a6e20a9f6 Last edit: 26/09/2026
 		[DIR] ff Last edit: 25/09/2026
 			[FILE] 64075379b7d532e5808eb6174e3e9e2c357202 Last edit: 24/09/2026
 			[FILE] d67090b945fe28b2e836a1041631be40f3a6e8 Last edit: 25/09/2026
 		[DIR] info Last edit: 23/09/2026
 		[DIR] pack Last edit: 23/09/2026
 	[DIR] refs Last edit: 23/09/2026
-		[DIR] heads Last edit: 26/09/2026
-			[FILE] main Last edit: 26/09/2026
+		[DIR] heads Last edit: 29/09/2026
+			[FILE] main Last edit: 29/09/2026
 		[DIR] remotes Last edit: 23/09/2026
-			[DIR] origin Last edit: 26/09/2026
-				[FILE] main Last edit: 26/09/2026
+			[DIR] origin Last edit: 29/09/2026
+				[FILE] main Last edit: 29/09/2026
 		[DIR] tags Last edit: 23/09/2026
 [FILE] .gitignore Last edit: 23/09/2026
-[DIR] .idea Last edit: 26/09/2026
+[DIR] .idea Last edit: 29/09/2026
 	[FILE] .gitignore Last edit: 23/09/2026
-	[FILE] compiler.xml Last edit: 25/09/2026
-	[FILE] encodings.xml Last edit: 25/09/2026
+	[FILE] compiler.xml Last edit: 26/09/2026
+	[FILE] encodings.xml Last edit: 26/09/2026
 	[FILE] jarRepositories.xml Last edit: 23/09/2026
-	[FILE] misc.xml Last edit: 23/09/2026
+	[FILE] misc.xml Last edit: 26/09/2026
 	[FILE] vcs.xml Last edit: 23/09/2026
-	[FILE] workspace.xml Last edit: 26/09/2026
+	[FILE] workspace.xml Last edit: 29/09/2026
 [DIR] .mvn Last edit: 23/09/2026
-[FILE] directory_structure.txt Last edit: 26/09/2026
-[DIR] N1.01 Last edit: 25/09/2026
-	[FILE] directory_structure.txt Last edit: 25/09/2026
-	[FILE] pom.xml Last edit: 23/09/2026
-	[FILE] README.md Last edit: 25/09/2026
-	[DIR] src Last edit: 25/09/2026
+[FILE] directory_structure.txt Last edit: 29/09/2026
+[DIR] N1.01 Last edit: 29/09/2026
+	[FILE] pom.xml Last edit: 29/09/2026
+	[FILE] README.md Last edit: 29/09/2026
+	[DIR] src Last edit: 29/09/2026
 		[DIR] files Last edit: 25/09/2026
-			[FILE] test.ser Last edit: 25/09/2026
+			[FILE] test.ser Last edit: 29/09/2026
 		[DIR] main Last edit: 23/09/2026
 			[DIR] java Last edit: 23/09/2026
-				[DIR] main Last edit: 25/09/2026
-					[FILE] Main.java Last edit: 25/09/2026
-				[DIR] service Last edit: 25/09/2026
-					[FILE] DirectoryLister.java Last edit: 24/09/2026
+				[DIR] main Last edit: 29/09/2026
+					[FILE] Main.java Last edit: 29/09/2026
+				[DIR] service Last edit: 29/09/2026
+					[FILE] DirectoryLister.java Last edit: 29/09/2026
 					[FILE] NewFileReader.java Last edit: 25/09/2026
 					[FILE] PersonClass.java Last edit: 25/09/2026
-					[FILE] Serial.java Last edit: 25/09/2026
+					[FILE] Serial.java Last edit: 29/09/2026
 			[DIR] resources Last edit: 23/09/2026
 		[DIR] test Last edit: 23/09/2026
-			[DIR] java Last edit: 23/09/2026
-		[FILE] testRead.txt Last edit: 25/09/2026
-	[DIR] target Last edit: 23/09/2026
-		[DIR] classes Last edit: 25/09/2026
-			[DIR] main Last edit: 25/09/2026
-				[FILE] Main.class Last edit: 25/09/2026
-			[DIR] service Last edit: 25/09/2026
-				[FILE] DirectoryLister.class Last edit: 24/09/2026
-				[FILE] NewFileReader.class Last edit: 25/09/2026
-				[FILE] PersonClass.class Last edit: 25/09/2026
-				[FILE] Serial.class Last edit: 25/09/2026
-		[DIR] generated-sources Last edit: 23/09/2026
-			[DIR] annotations Last edit: 23/09/2026
-[DIR] N2.01 Last edit: 26/09/2026
-	[FILE] directory_structure.txt Last edit: 26/09/2026
-	[FILE] pom.xml Last edit: 26/09/2026
+			[DIR] java Last edit: 29/09/2026
+				[DIR] service Last edit: 29/09/2026
+					[FILE] DirectoryListerTest.java Last edit: 29/09/2026
+					[FILE] SerialTest.java Last edit: 29/09/2026
+		[FILE] testRead.txt Last edit: 29/09/2026
+	[DIR] target Last edit: 29/09/2026
+		[DIR] classes Last edit: 29/09/2026
+			[DIR] main Last edit: 29/09/2026
+				[FILE] Main.class Last edit: 29/09/2026
+			[DIR] service Last edit: 29/09/2026
+				[FILE] DirectoryLister.class Last edit: 29/09/2026
+				[FILE] NewFileReader.class Last edit: 29/09/2026
+				[FILE] PersonClass.class Last edit: 29/09/2026
+				[FILE] Serial.class Last edit: 29/09/2026
+		[DIR] generated-sources Last edit: 29/09/2026
+			[DIR] annotations Last edit: 29/09/2026
+		[DIR] generated-test-sources Last edit: 29/09/2026
+			[DIR] test-annotations Last edit: 29/09/2026
+		[DIR] maven-status Last edit: 29/09/2026
+			[DIR] maven-compiler-plugin Last edit: 29/09/2026
+				[DIR] compile Last edit: 29/09/2026
+					[DIR] default-compile Last edit: 29/09/2026
+						[FILE] createdFiles.lst Last edit: 29/09/2026
+						[FILE] inputFiles.lst Last edit: 29/09/2026
+		[DIR] test-classes Last edit: 29/09/2026
+			[DIR] service Last edit: 29/09/2026
+				[FILE] DirectoryListerTest.class Last edit: 29/09/2026
+				[FILE] SerialTest.class Last edit: 29/09/2026
+[DIR] N2.01 Last edit: 29/09/2026
+	[FILE] directory_structure.txt Last edit: 29/09/2026
+	[DIR] N2.01 Last edit: 29/09/2026
+		[DIR] src Last edit: 29/09/2026
+			[DIR] main Last edit: 29/09/2026
+				[DIR] resources Last edit: 29/09/2026
+					[FILE] config.properties Last edit: 29/09/2026
+	[FILE] pom.xml Last edit: 29/09/2026
 	[FILE] README.md Last edit: 26/09/2026
 	[DIR] src Last edit: 25/09/2026
 		[DIR] main Last edit: 25/09/2026
 			[DIR] java Last edit: 25/09/2026
 				[DIR] main Last edit: 26/09/2026
 					[FILE] Main.java Last edit: 26/09/2026
-				[DIR] service Last edit: 26/09/2026
-					[FILE] ConfigLoader.java Last edit: 26/09/2026
+				[DIR] service Last edit: 29/09/2026
+					[FILE] ConfigLoader.java Last edit: 29/09/2026
 					[FILE] DirectoryLister.java Last edit: 24/09/2026
 			[DIR] resources Last edit: 26/09/2026
 				[FILE] config.properties Last edit: 26/09/2026
 		[DIR] test Last edit: 25/09/2026
-			[DIR] java Last edit: 25/09/2026
-	[DIR] target Last edit: 25/09/2026
-		[DIR] classes Last edit: 26/09/2026
-			[FILE] config.properties Last edit: 26/09/2026
-			[DIR] main Last edit: 26/09/2026
-				[FILE] Main.class Last edit: 26/09/2026
-			[DIR] service Last edit: 26/09/2026
-				[FILE] ConfigLoader.class Last edit: 26/09/2026
-				[FILE] DirectoryLister.class Last edit: 26/09/2026
-		[DIR] generated-sources Last edit: 25/09/2026
-			[DIR] annotations Last edit: 25/09/2026
-[FILE] pom.xml Last edit: 25/09/2026
+			[DIR] java Last edit: 29/09/2026
+				[DIR] service Last edit: 29/09/2026
+					[FILE] ConfigLoaderTest.java Last edit: 29/09/2026
+					[FILE] DirectoryListerTest.java Last edit: 29/09/2026
+	[DIR] target Last edit: 29/09/2026
+		[DIR] classes Last edit: 29/09/2026
+			[FILE] config.properties Last edit: 29/09/2026
+			[DIR] main Last edit: 29/09/2026
+				[FILE] Main.class Last edit: 29/09/2026
+			[DIR] service Last edit: 29/09/2026
+				[FILE] ConfigLoader.class Last edit: 29/09/2026
+				[FILE] DirectoryLister.class Last edit: 29/09/2026
+		[DIR] generated-sources Last edit: 29/09/2026
+			[DIR] annotations Last edit: 29/09/2026
+		[DIR] generated-test-sources Last edit: 29/09/2026
+			[DIR] test-annotations Last edit: 29/09/2026
+		[DIR] maven-status Last edit: 29/09/2026
+			[DIR] maven-compiler-plugin Last edit: 29/09/2026
+				[DIR] compile Last edit: 29/09/2026
+					[DIR] default-compile Last edit: 29/09/2026
+						[FILE] createdFiles.lst Last edit: 29/09/2026
+						[FILE] inputFiles.lst Last edit: 29/09/2026
+		[DIR] test-classes Last edit: 29/09/2026
+			[DIR] service Last edit: 29/09/2026
+				[FILE] ConfigLoaderTest.class Last edit: 29/09/2026
+				[FILE] DirectoryListerTest.class Last edit: 29/09/2026
+[FILE] pom.xml Last edit: 29/09/2026
 [FILE] README.md Last edit: 23/09/2026
 [DIR] src Last edit: 23/09/2026
 	[DIR] main Last edit: 23/09/2026

@@ -10,32 +10,43 @@ import java.io.IOException;
 
 public class ConfigLoader {
 
-    private static final String EXTERNAL_CONFIG_PATH = "N2.01/src/main/resources/config.properties";
-
+    private static String configPath = "N2.01" + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + "config.properties";
     private static FileBasedConfigurationBuilder<PropertiesConfiguration> builder;
     private static PropertiesConfiguration config;
 
-    private void configLoader() {}
+    private ConfigLoader() {}
 
     static {
-        File externalFile = new File(EXTERNAL_CONFIG_PATH);
+        loadConfiguration(configPath);
+    }
+
+    public static synchronized void loadConfiguration(String path) {
+        configPath = path;
+        File externalFile = new File(configPath);
+
         if (!externalFile.exists()) {
+            File parentDir = externalFile.getParentFile();
+            if (parentDir != null && !parentDir.exists()) {
+                parentDir.mkdirs();
+            }
             try {
-                boolean fileCreated = externalFile.createNewFile();
-                if (fileCreated) {
-                    System.out.println("El archivo .properties ha sido creado");
+                if (externalFile.createNewFile()) {
+                    System.out.println("El archivo .properties ha sido creado en: " + externalFile.getPath());
                 }
             } catch (IOException e) {
-                System.err.println(e.getMessage());
+                System.err.println("Error al crear el archivo .properties: " + e.getMessage());
             }
         }
 
         Parameters params = new Parameters();
-        builder = new FileBasedConfigurationBuilder<>(PropertiesConfiguration.class).configure(params.properties().setFile(externalFile));
+        builder = new FileBasedConfigurationBuilder<>(PropertiesConfiguration.class)
+                .configure(params.properties().setFile(externalFile));
+
         try {
             config = builder.getConfiguration();
         } catch (ConfigurationException e) {
-            System.err.println(e.getMessage());
+            System.err.println("Error al cargar la configuración: " + e.getMessage());
+            config = null;
         }
     }
 
@@ -44,17 +55,5 @@ public class ConfigLoader {
             return defaultValue;
         }
         return config.getString(key, defaultValue);
-    }
-
-    public static void setProperty(String key, String value) {
-        if (config != null && builder != null) {
-            try {
-                config.setProperty(key, value);
-                builder.save();
-                System.out.println("Config updated: " + key + " - " + value);
-            } catch (ConfigurationException e){
-                System.err.println(e.getMessage());
-            }
-        }
     }
 }

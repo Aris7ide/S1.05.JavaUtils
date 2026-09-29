@@ -1,6 +1,8 @@
 package service;
 
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.time.Instant;
 import java.time.ZoneId;
@@ -10,7 +12,7 @@ import java.util.Comparator;
 
 public class DirectoryLister {
 
-    public static void alphabeticalDirectoryLister(String directoryPath, int nivel, PrintWriter writer) {
+    public static void alphabeticalDirectoryLister(String directoryPath, int nivel){
 
             File directory = new File(directoryPath);
 
@@ -35,15 +37,19 @@ public class DirectoryLister {
 
             Arrays.sort(content, Comparator.comparing(File::getName, String.CASE_INSENSITIVE_ORDER));
 
-            for (File f : content) {
-                String tipo = f.isDirectory() ? "[DIR]" : "[FILE]";
-                String date = dateFormat(f.lastModified());
-                writer.println(("\t").repeat(nivel) + tipo + " " + f.getName() + " Last edit: " + date);
-                if (f.isDirectory()) {
-                    alphabeticalDirectoryLister(f.getAbsolutePath(), nivel + 1, writer);
-                }
-            }
+            try (PrintWriter writer = new PrintWriter(new FileWriter("directory_structure.txt"))) {
 
+                for (File f : content) {
+                    String tipo = f.isDirectory() ? "[D]" : "[F]";
+                    String date = dateFormat(f.lastModified());
+                    writer.println(("\t").repeat(nivel) + tipo + " " + f.getName() + " Last edit: " + date);
+                    if (f.isDirectory()) {
+                        alphabeticalDirectoryLister(f.getAbsolutePath(), nivel + 1);
+                    }
+                }
+            } catch (IOException e){
+                System.err.println(e.getMessage());
+            }
     }
 
     public static String dateFormat(Long date) {

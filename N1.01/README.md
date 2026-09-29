@@ -22,6 +22,11 @@ Al final de este nivel, habrás creado un pequeño conjunto de herramientas para
 - **Llenguatge**: Java 25
 - **IDE**: IntelliJ IDEA
 
+## 🚀 Instal·lació i Execució
+1. accede a la carpeta del ejercicio: cd N1.02
+2. mvn compile 
+3. mvn exec:java "-Dexec.mainClass=main.Main"
+
 ## Excecution
 ### Ejercicio 1
 #### Crea una clase que liste alfabéticamente el contenido de un directorio recibido por parámetro.
